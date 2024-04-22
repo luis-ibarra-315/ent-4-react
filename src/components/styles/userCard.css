@@ -1,0 +1,41 @@
+.user{
+    width: 300px;
+    background-color: gray;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.user--name{
+    margin-bottom:10px;
+    text-align: center;
+}
+
+
+.user--list{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap :10px;
+}
+
+.user--item {
+    display: flex;
+    flex-direction: column;
+}
+
+.user--item span:fiest-child{
+    color:#fff7;
+}
+
+.user--buttons{
+    margin-top:10px ;
+    display: flex;
+    justify-content: end;
+    gap: 2opx;
+}
+
+.user--buttons button{
+    margin: 0 10px;
+}

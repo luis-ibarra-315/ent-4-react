@@ -1,0 +1,45 @@
+.form--back{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#fff7 ;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.form--back.active{
+    display: flex;
+}
+
+.form{
+    position: relative;
+    height: 375px;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form--close{
+    padding: 2px 5px ;
+    position: absolute;
+    top:5%;
+    right: 10%;
+}
+
+.form--close:hover{
+    color:red;
+}
+
+
+.form--item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
